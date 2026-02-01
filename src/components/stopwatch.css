@@ -1,0 +1,33 @@
+.btn-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.time-card {
+  background-color: aquamarine;
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  font-size: 120px;
+  border-radius: 10px;
+  color: rgb(204, 132, 132);
+  padding: 12px;
+}
+.btn-card {
+  background-color: rgb(126, 42, 88);
+  border: none;
+  width: 90px;
+  height: 40px;
+  border-radius: 12px;
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.reset-btn {
+  background-color: red;
+}
+.start-btn {
+  background-color: cornflowerblue;
+}
+.pause-btn {
+  background-color: chocolate;
+}
