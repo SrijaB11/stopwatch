@@ -64,34 +64,3 @@ function StopWatch() {
 }
 
 export default StopWatch;
-
-// function StopWatch() {
-//   const [min, setMin] = useState(0);
-//   const [sec, setSec] = useState(0);
-
-//   function onStart() {
-//     let interval = setInterval(() => {
-//       console.log("fghjkl");
-//       setSec((prev) => {
-//         return prev + 1;
-//       });
-//     }, 1000);
-//   }
-
-//   function onStop() {
-//     clearInterval(interval);
-//   }
-
-//   return (
-//     <div>
-//       {min}:{sec}
-//       <div className="btn-container">
-//         <button onClick={onStart}>Start</button>
-//         <button onClick={onStop}>Pause</button>
-//         <button>reset</button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default StopWatch;
